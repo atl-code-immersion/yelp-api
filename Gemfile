@@ -26,6 +26,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'figaro'
 gem 'bootstrap-sass'
 gem 'yelp', require: 'yelp'
+
+# if you're on a Windows machine you'll also need:
+gem 'certified'
+# if you're on Windows and you're cloning this repo:
+gem 'tzinfo-data'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
